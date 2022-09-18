@@ -1,0 +1,89 @@
+.foods_container{
+    margin-bottom: 100px;
+}
+.foods_container h1{
+    padding-bottom: 20px;
+}
+.food_container{
+    width: 100%;
+    height: 80px;
+    background: #E01A1A;
+    border: 10px solid #E01A1A;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.buttons{
+    width:25%;
+    height:40px;
+    background:#E01A1A;
+    border-radius: 10px;
+    color: #212245;
+    margin-top: 10px;
+
+}
+.buttons:hover{
+    background:#ffffff;
+    transform: scale(1.1);
+
+}
+.buy_button{
+    width:100%;
+    height:40px;
+    background:#E01A1A;
+    border-radius: 10px;
+    color: #212245;
+    margin-top: 10px;
+
+}
+.buy_button:hover{
+    background:#ffffff;
+    transform: scale(1.1);
+
+}
+.price{
+    color: #E01A1A;
+}
+.buttons img{
+    width: 40px;
+    height: 35px;
+}
+/* Foods Card Design */
+.food_card{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+ }
+ .food_card img{
+    width: 80px;
+    height: 80px;
+    margin: 30px;
+ }
+ .food_card img:hover{
+    transform: scale(1.5);
+ }
+ .food_card h5{
+    color: #212245;
+ }
+ .food_card:hover{
+     transform: scale(1.1);
+ }
+ .card-body h5{
+     color: #212245;
+ }
+ .card-body p{
+    color: #212245;
+ }
+@media screen and (max-width:768px){
+    .food_container{
+       
+        height: auto;
+       
+    }
+    .button{
+        width:100%;
+    }
+}

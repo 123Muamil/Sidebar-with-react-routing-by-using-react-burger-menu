@@ -1,0 +1,84 @@
+
+.col-lg-6 h4{
+    color:#212245
+}
+.d-flex h6{
+    color:#212245
+}
+.col-lg-6 h1{
+    color: #E01A1A;
+}
+.col-lg-6 span{
+    color: #212245;
+}
+.d-flex{
+    gap: 50px;
+}
+.button1{
+    width:25%;
+    height:40px;
+    background:#E01A1A;
+    border-radius: 10px;
+    color: #212245;
+
+}
+.button1:hover{
+    background:#ffffff;
+    transform: scale(1.1);
+
+}
+.button2{
+    width:25%;
+    height:40px;
+    background:#E01A1A;
+    border-radius: 10px;
+    color: #212245;
+   
+
+}
+.button2:hover{
+    background:#E01A1A;
+    transform: scale(1.1);
+}
+.fa-lock{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background:#E01A1A;
+    text-align: center;
+}
+.fa-passport{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background:#E01A1A;
+    text-align: center;
+}
+@media screen and (max-width:768px) {
+     .button1{
+        width: 50%;
+        height: auto;
+     }
+     .button2{
+        width: 50%;
+        height: auto;
+     }
+     .d-flex h6{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .button1{
+       width: 50%;
+    }
+    .button2{
+       width: 50%;
+    }
+    .d-flex h6{
+       font-size: 12px;
+   }
+}
+.col-lg-6 img{
+    width: 100%;
+    height: 500px;
+}

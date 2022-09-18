@@ -1,0 +1,18 @@
+.cartItem-card h1{
+   color: #5FACE7;
+   
+}
+.cartItem-card{
+    margin-bottom: 20px;
+}
+.cartItem-card:hover{
+    transform: scale(1.1);
+}
+.cartItem-image{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.cartItem-image:hover{
+    transform: scale(1.1);
+}
